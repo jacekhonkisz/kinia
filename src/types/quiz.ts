@@ -18,6 +18,16 @@ export interface QuizQuestion {
   category: string;
 }
 
+export interface MedicationCard {
+  id: string;
+  name: string;
+  group: string;
+  dosage: string;
+  mechanism: string;
+  indications: string;
+  sideEffects: string;
+}
+
 export interface QuizState {
   currentQuestionIndex: number;
   score: number;

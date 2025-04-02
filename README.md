@@ -1,88 +1,77 @@
-# Baza Leków - Aplikacja Webowa
+# Kinia - React Application
 
-Prosta aplikacja webowa do prezentacji danych o lekach z pliku PDF.
+A React + TypeScript application built with Vite.
 
-## Wymagania
+## Tech Stack
 
-- Python 3.8+
-- pip (menedżer pakietów Pythona)
+- React 18
+- TypeScript
+- Vite
+- React Router
 
-## Instalacja
+## Installation
 
-1. Sklonuj repozytorium
-2. Zainstaluj wymagane pakiety:
+1. Clone the repository
+2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
-## Konfiguracja
+## Development
 
-1. Skopiuj plik `.env.example` do `.env`:
+Run the development server:
 ```bash
-cp .env.example .env
+npm run dev
 ```
 
-2. Edytuj plik `.env` i ustaw odpowiednie wartości:
-- `SECRET_KEY` - klucz szyfrowania sesji
-- `DATABASE_URL` - URL do bazy danych
-- `FLASK_ENV` - środowisko (development/production)
-- `PORT` - port na którym ma działać aplikacja
+The application will be available at http://localhost:3001
 
-## Uruchomienie w trybie developerskim
+## Building for Production
 
 ```bash
-export FLASK_ENV=development
-python app.py
+npm run build
 ```
 
-## Uruchomienie w trybie produkcyjnym
-
-1. Upewnij się, że wszystkie zmienne środowiskowe są poprawnie ustawione w pliku `.env`
-2. Uruchom aplikację używając gunicorn:
-```bash
-gunicorn app:app
-```
+This will generate a production build in the `dist` directory.
 
 ## Deployment
 
-### Heroku
-1. Zainstaluj Heroku CLI
-2. Zaloguj się do Heroku:
+### GitHub Pages
+
+This project is configured for deployment to GitHub Pages.
+
+Deploy to GitHub Pages:
 ```bash
-heroku login
-```
-3. Stwórz nową aplikację:
-```bash
-heroku create nazwa-aplikacji
-```
-4. Ustaw zmienne środowiskowe:
-```bash
-heroku config:set SECRET_KEY=twoj-tajny-klucz
-heroku config:set FLASK_ENV=production
-```
-5. Wypchnij kod do Heroku:
-```bash
-git push heroku main
+npm run deploy
 ```
 
-### Własny serwer
-1. Skonfiguruj serwer nginx jako reverse proxy
-2. Użyj supervisord do zarządzania procesem gunicorn
-3. Ustaw odpowiednie zmienne środowiskowe
-4. Uruchom aplikację używając gunicorn
+This will build the project and push it to the `gh-pages` branch.
 
-## Funkcjonalności
+### Vercel
 
-- Wyświetlanie listy wszystkich leków
-- Wyszukiwanie leków po nazwie lub grupie terapeutycznej
-- Wyświetlanie szczegółowych informacji o wybranym leku
-- Responsywny interfejs dostosowany do urządzeń mobilnych
+This project is also configured for deployment to Vercel.
 
-## Struktura projektu
+1. Push your code to GitHub
+2. Connect your GitHub repository to Vercel
+3. Vercel will automatically detect the configuration and deploy the app
 
-- `app.py` - główny plik aplikacji Flask
-- `templates/` - szablony HTML
-- `requirements.txt` - lista zależności
-- `Procfile` - konfiguracja dla Heroku
-- `.env` - zmienne środowiskowe
-- `drugs.db` - baza danych SQLite (tworzona automatycznie) 
+For manual deployment using Vercel CLI:
+```bash
+npm install -g vercel
+vercel
+```
+
+## Project Structure
+
+- `src/` - Source code
+  - `components/` - React components
+  - `pages/` - Page components
+  - `styles/` - CSS styles
+  - `utils/` - Utility functions
+  - `types/` - TypeScript type definitions  
+  - `data/` - Data files
+- `public/` - Static assets
+- `index.html` - HTML entry point
+- `vite.config.ts` - Vite configuration
+- `tsconfig.json` - TypeScript configuration
+- `vercel.json` - Vercel configuration 

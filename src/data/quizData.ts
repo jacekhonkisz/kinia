@@ -3385,19 +3385,981 @@ export const allFlashcards: (Flashcard | QuizQuestion)[] = [
     correctAnswer: 'Cytostatyk z grupy związków alkilujących',
     explanation: 'Busulfan to cytostatyk z grupy związków alkilujących, stosowany w chemioterapii nowotworów oraz w przygotowaniu do przeszczepu szpiku kostnego.',
     category: 'Farmakologia'
+  },
+  {
+    id: '3385',
+    question: 'Jaki jest mechanizm działania Rysperydonu?',
+    answer: 'Antagonista receptorów dopaminowych (D₂) i serotoninowych (5-HT₂A). Dodatkowo oddziałuje na receptory adrenergiczne i histaminowe.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3386',
+    question: 'Jakie są wskazania do stosowania Baklofenu?',
+    answer: 'Spastyczność mięśni (np. w stwardnieniu rozsianym, urazach rdzenia kręgowego).',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3387',
+    question: 'Jaki jest mechanizm działania Dihydrokodeiny?',
+    answer: 'Agonista receptorów opioidowych μ → zahamowanie przewodzenia bodźców bólowych i zmniejszenie percepcji bólu.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3388',
+    question: 'Jakie są działania niepożądane Dalteparyny?',
+    answer: 'Krwawienia, trombocytopenia (m.in. HIT), reakcje skórne w miejscu wstrzyknięcia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3389',
+    question: 'Jakie są wskazania do stosowania Metronidazolu?',
+    answer: 'Zakażenia beztlenowe, rzęsistkowica, lamblioza, ameboza, eradykacja Helicobacter pylori (w skojarzeniu), profilaktyka okołozabiegowa.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3390',
+    question: 'Jaki jest mechanizm działania Kapsaicyny?',
+    answer: 'Pobudza receptory TRPV1 → początkowe uczucie pieczenia, następnie zmniejsza wydzielanie substancji P i przewodnictwo bólowe w nerwach obwodowych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3391',
+    question: 'Jakie są działania niepożądane Digoksyny?',
+    answer: 'Arytmie, zaburzenia widzenia (np. widzenie na żółto lub zielono), nudności, wymioty, bóle głowy.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3392',
+    question: 'Jakie jest dawkowanie Olanzapiny?',
+    answer: 'Doustnie (p.o.): zazwyczaj 5–20 mg/dobę, dostosowywane indywidualnie.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3393',
+    question: 'Jakie są wskazania do stosowania Nefopamu?',
+    answer: 'Ból umiarkowany, nieopioidowy lek przeciwbólowy o działaniu centralnym.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3394',
+    question: 'Jaki jest mechanizm działania Zoledronianu?',
+    answer: 'Hamuje aktywność osteoklastów, zmniejszając resorpcję kostną.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3395',
+    question: 'Jakie są działania niepożądane Tramadolu?',
+    answer: 'Nudności, senność, zawroty głowy, ryzyko uzależnienia, zaparcia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3396',
+    question: 'Jaki jest mechanizm działania Spironolaktonu?',
+    answer: 'Blokuje receptory aldosteronu → zmniejszenie retencji sodu i wody, oszczędzając potas.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3397',
+    question: 'Jakie są działania niepożądane Furosemidu?',
+    answer: 'Hipokaliemia, odwodnienie, zaburzenia elektrolitowe, spadek ciśnienia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3398',
+    question: 'Jakie jest dawkowanie kwasu ibandronowego?',
+    answer: 'Doustnie (p.o.): 150 mg miesięcznie lub Dożylnie (i.v.): 3 mg co 3 miesiące.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3399',
+    question: 'Jakie są działania niepożądane Kodeiny?',
+    answer: 'Senność, zaparcia, nudności, ryzyko uzależnienia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3400',
+    question: 'Jaki jest mechanizm działania Trazodonu?',
+    answer: 'Hamuje wychwyt serotoniny, antagonizując jednocześnie receptory 5-HT2 → poprawa snu i nastrój.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3401',
+    question: 'Jakie jest dawkowanie Lidokainy miejscowo?',
+    answer: 'Miejscowo: 1–5% roztwór (znieczulenie miejscowe); Dożylnie (i.v.): 1–1,5 mg/kg.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3402',
+    question: 'Jakie są wskazania do stosowania Klotrimazolu?',
+    answer: 'Zakażenia grzybicze skóry i błon śluzowych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3403',
+    question: 'Jaki jest mechanizm działania Enoksaparyny?',
+    answer: 'Zwiększa działanie antykoagulacyjne antytrombiny III, głównie hamując czynnik Xa.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3404',
+    question: 'Jakie są wskazania do stosowania Naloksonu?',
+    answer: 'Odmowa, zatrucie opioidami.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3405',
+    question: 'Jakie są działania niepożądane Flukonazolu?',
+    answer: 'Nudności, bóle głowy, wysypki, zaburzenia czynności wątroby.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3406',
+    question: 'Który lek jest antagonistą receptorów dopaminowych (D₂) i serotoninowych (5-HT₂A)?',
+    options: ['Risperidon', 'Dihydrokodeina', 'Metronidazol', 'Baklofen'],
+    correctAnswer: 'Risperidon',
+    explanation: 'Risperidon jest atypowym lekiem przeciwpsychotycznym, który działa jako antagonista receptorów dopaminowych (D₂) i serotoninowych (5-HT₂A).',
+    category: 'Leki'
+  },
+  {
+    id: '3407',
+    question: 'Który lek jest stosowany w spastyczności mięśni w stwardnieniu rozsianym?',
+    options: ['Baklofen', 'Kapsaicyna', 'Tramadol', 'Flukonazol'],
+    correctAnswer: 'Baklofen',
+    explanation: 'Baklofen jest miorelaksantem ośrodkowym stosowanym głównie w spastyczności mięśni, np. w stwardnieniu rozsianym lub po urazach rdzenia kręgowego.',
+    category: 'Leki'
+  },
+  {
+    id: '3408',
+    question: 'Który z wymienionych leków jest stosowany w leczeniu zakażeń beztlenowych?',
+    options: ['Metronidazol', 'Tramadol', 'Dihydrokodeina', 'Spironolakton'],
+    correctAnswer: 'Metronidazol',
+    explanation: 'Metronidazol jest chemioterapeutykiem z grupy nitroimidazoli stosowanym w leczeniu zakażeń bakteriami beztlenowymi, rzęsistkowicy, lambliozy i amebozy.',
+    category: 'Leki'
+  },
+  {
+    id: '3409',
+    question: 'Który z wymienionych leków jest inhibitorem resorpcji kostnej przez osteoklasty?',
+    options: ['Zoledronian', 'Furosemid', 'Trazodon', 'Lidokaina'],
+    correctAnswer: 'Zoledronian',
+    explanation: 'Zoledronian jest bisfosfonianem, który hamuje aktywność osteoklastów, zmniejszając resorpcję kostną. Stosowany w osteoporozie i chorobach metabolicznych kości.',
+    category: 'Leki'
+  },
+  {
+    id: '3410',
+    question: 'Który lek powoduje jako działanie niepożądane widzenie na żółto lub zielono?',
+    options: ['Digoksyna', 'Olanzapina', 'Kodeina', 'Nefopam'],
+    correctAnswer: 'Digoksyna',
+    explanation: 'Digoksyna jako działanie niepożądane może powodować zaburzenia widzenia, w tym widzenie na żółto lub zielono, a także arytmie, nudności i wymioty.',
+    category: 'Leki'
+  },
+  {
+    id: '3411',
+    question: 'Który lek działa przeciwbólowo poprzez pobudzenie receptorów TRPV1?',
+    options: ['Kapsaicyna', 'Enoksaparyna', 'Spironolakton', 'Klotrimazol'],
+    correctAnswer: 'Kapsaicyna',
+    explanation: 'Kapsaicyna początkowo pobudza receptory TRPV1 wywołując pieczenie, a następnie zmniejsza wydzielanie substancji P i przewodnictwo bólowe w nerwach obwodowych.',
+    category: 'Leki'
+  },
+  {
+    id: '3412',
+    question: 'Który z leków jest stosowany w hiperkalemii?',
+    options: ['Furosemid', 'Tramadol', 'Spironolakton', 'Metronidazol'],
+    correctAnswer: 'Furosemid',
+    explanation: 'Furosemid to diuretyk pętlowy, który zwiększa wydalanie potasu z organizmu, może być stosowany w hiperkalemii, a także w obrzękach, niewydolności serca i nadciśnieniu.',
+    category: 'Leki'
+  },
+  {
+    id: '3413',
+    question: 'Jaki lek jest stosowany jako antidotum w zatruciach opioidami?',
+    options: ['Nalokson', 'Tramadol', 'Dihydrokodeina', 'Lidokaina'],
+    correctAnswer: 'Nalokson',
+    explanation: 'Nalokson jest antagonistą opioidowym stosowanym w zatruciach opioidami. Blokuje receptory opioidowe, odwracając działanie opioidów.',
+    category: 'Leki'
+  },
+  {
+    id: '3414',
+    question: 'Który lek jest antagonistą aldosteronu?',
+    options: ['Spironolakton', 'Furosemid', 'Kwas ibandronowy', 'Kodeina'],
+    correctAnswer: 'Spironolakton',
+    explanation: 'Spironolakton jest diuretykiem oszczędzającym potas, który działa blokując receptory aldosteronu, co zmniejsza retencję sodu i wody, oszczędzając potas.',
+    category: 'Leki'
+  },
+  {
+    id: '3415',
+    question: 'Jaka jest główna droga podania kapsaicyny?',
+    options: ['Miejscowo (na skórę)', 'Doustnie', 'Dożylnie', 'Domięśniowo'],
+    correctAnswer: 'Miejscowo (na skórę)',
+    explanation: 'Kapsaicyna jest podawana miejscowo w formie kremów, maści lub plastrów. Stosowana w bólach neuropatycznych i mięśniowo-stawowych.',
+    category: 'Leki'
+  },
+  {
+    id: '3416',
+    question: 'Jakie jest dawkowanie Chloropromazyny?',
+    answer: 'Doustnie (p.o.): zwykle 25–100 mg/dobę w dawkach podzielonych; Domięśniowo (i.m.)/Dożylnie (i.v.): w stanach ostrych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3417',
+    question: 'Jaki jest mechanizm działania Fenytoiny?',
+    answer: 'Blokada kanałów sodowych zależnych od napięcia → stabilizacja błony komórkowej, zmniejszenie nadpobudliwości neuronalnej.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3418',
+    question: 'Jakie są działania niepożądane Metamizolu?',
+    answer: 'Agranulocytoza (rzadko, lecz poważna), spadek ciśnienia (przy szybkim wlewie i.v.), reakcje alergiczne, zaburzenia żołądkowo-jelitowe.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3419',
+    question: 'Jakie jest dawkowanie Nefopamu?',
+    answer: 'Doustnie (p.o.): zwykle 20–40 mg co 6–8 h, dawkowanie indywidualne.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3420',
+    question: 'Jakie są działania niepożądane Zoledronianu?',
+    answer: 'Objawy grypopodobne, bóle stawów, ryzyko osteonekrozy zębów, podrażnienie miejscowe przy infuzji.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3421',
+    question: 'Jakie są główne wskazania do stosowania Spironolaktonu?',
+    answer: 'Nadciśnienie, niewydolność serca, obrzęki, hirsutyzm.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3422',
+    question: 'Jaki jest mechanizm działania Furosemidu?',
+    answer: 'Hamuje symporter Na⁺/K⁺/2Cl⁻ w pętli Henlego → zwiększenie diurezy.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3423',
+    question: 'Jakie są wskazania do stosowania kwasu ibandronowego?',
+    answer: 'Osteoporoza, zahamowanie resorpcji kości.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3424',
+    question: 'Jaki jest mechanizm działania Kodeiny?',
+    answer: 'Agonista receptorów μ; metabolizowana do morfiny, co odpowiada za efekt przeciwbólowy.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3425',
+    question: 'Jakie są wskazania do stosowania Trazodonu?',
+    answer: 'Depresja, bezsenność.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3426',
+    question: 'Jaki jest mechanizm działania Lidokainy?',
+    answer: 'Blokada kanałów sodowych → zahamowanie przewodzenia impulsów nerwowych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3427',
+    question: 'Jakie są działania niepożądane Klotrimazolu?',
+    answer: 'Miejscowe podrażnienie, reakcje alergiczne.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3428',
+    question: 'Jakie jest dawkowanie Enoksaparyny profilaktycznie?',
+    answer: 'Podskórnie (s.c.): profilaktycznie około 40 mg/dobę; przy leczeniu dawka 1 mg/kg co 12 h (dostosowywana indywidualnie).',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3429',
+    question: 'Jaki jest mechanizm działania Naloksonu?',
+    answer: 'Blokuje receptory opioidowe, odwracając działanie opioidów.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3430',
+    question: 'Jakie są wskazania do stosowania Flukonazolu?',
+    answer: 'Leczenie grzybic (m.in. kandydoza, kryptokokoza).',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3431',
+    question: 'Jaki jest mechanizm działania Teofiliny?',
+    answer: 'Blokada receptorów adenozynowych, zwiększenie stężenia cAMP → rozszerzenie oskrzeli.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3432',
+    question: 'Jakie są wskazania do stosowania Berodualu?',
+    answer: 'Ostre napady astmy, zaostrzenia POChP.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3433',
+    question: 'Jaki jest mechanizm działania Amoksycyliny?',
+    answer: 'Hamuje syntezę ściany komórkowej bakterii poprzez wiązanie białek penicylinozależnych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3434',
+    question: 'Jakie są działania niepożądane Klarytromycyny?',
+    answer: 'Biegunka, zaburzenia żołądkowo-jelitowe, reakcje alergiczne, zmiana smaku.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3435',
+    question: 'Jakie są wskazania do stosowania Ceftazoliny?',
+    answer: 'Zakażenia szpitalne, zakażenia dróg oddechowych i moczowych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3436',
+    question: 'Jaki jest mechanizm działania Sulfasalazyny?',
+    answer: 'Dokładny mechanizm nie do końca poznany; wykazuje działanie przeciwzapalne i immunomodulujące.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3437',
+    question: 'Jakie są wskazania do stosowania Dimenhydrynatu?',
+    answer: 'Nudności, wymioty, choroba lokomocyjna.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3438',
+    question: 'Jaki jest mechanizm działania Itoprydu?',
+    answer: 'Blokada receptorów dopaminowych oraz hamowanie fosfodiesterazy → zwiększenie motoryki przewodu pokarmowego.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3439',
+    question: 'Jakie są działania niepożądane Ondansetronu?',
+    answer: 'Bóle głowy, zaparcia, zawroty głowy.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3440',
+    question: 'Jakie są wskazania do stosowania Lorazepamu?',
+    answer: 'Lęk, bezsenność, stan pobudzenia, sedacja przedoperacyjna.',
+    category: 'Leki',
+    reversed: true
+  },
+  
+  // Additional quiz questions based on medication data
+  {
+    id: '3441',
+    question: 'Który z poniższych leków NIE jest stosowany w leczeniu padaczki?',
+    options: ['Oktreotyd', 'Karbamazepina', 'Fenytoina', 'Klonazepam'],
+    correctAnswer: 'Oktreotyd',
+    explanation: 'Oktreotyd jest analogiem somatostatyny stosowanym w leczeniu akromegalii i nowotworów neuroendokrynnych, nie ma zastosowania w padaczce.',
+    category: 'Leki'
+  },
+  {
+    id: '3442',
+    question: 'Który z wymienionych leków wywołuje jako działanie niepożądane agranulocytozę?',
+    options: ['Metamizol', 'Amlodypina', 'Klotrimazol', 'Kapsaicyna'],
+    correctAnswer: 'Metamizol',
+    explanation: 'Metamizol (Pyralgin) może powodować agranulocytozę, która jest rzadkim, ale poważnym działaniem niepożądanym tego leku.',
+    category: 'Leki'
+  },
+  {
+    id: '3443',
+    question: 'Który lek jest głównie stosowany w leczeniu hipokaliemii?',
+    options: ['Kalium effervescens', 'Furosemid', 'Spironolakton', 'Mannitol'],
+    correctAnswer: 'Kalium effervescens',
+    explanation: 'Kalium effervescens to preparat potasu stosowany głównie w uzupełnianiu niedoborów potasu w organizmie (hipokaliemii).',
+    category: 'Leki'
+  },
+  {
+    id: '3444',
+    question: 'Który lek jest najsilniejszym opioidem spośród wymienionych?',
+    options: ['Fentanyl', 'Tramadol', 'Kodeina', 'Dihydrokodeina'],
+    correctAnswer: 'Fentanyl',
+    explanation: 'Fentanyl jest najsilniejszym opioidem z wymienionych, około 100 razy silniejszym od morfiny. Tramadol i kodeina są słabszymi opioidami.',
+    category: 'Leki'
+  },
+  {
+    id: '3445',
+    question: 'Który z poniższych leków jest blokerem kanału wapniowego?',
+    options: ['Amlodypina', 'Bisoprolol', 'Furosemid', 'Tramadol'],
+    correctAnswer: 'Amlodypina',
+    explanation: 'Amlodypina jest blokerem kanałów wapniowych, stosowanym w leczeniu nadciśnienia i dławicy piersiowej. Blokuje napływ jonów wapnia do komórek mięśni gładkich naczyń.',
+    category: 'Leki'
+  },
+  {
+    id: '3446',
+    question: 'Który lek jest antagonistą receptorów muskarynowych?',
+    options: ['Ipratropium (składnik Berodualu)', 'Flukonazol', 'Tramadol', 'Amoksycylina'],
+    correctAnswer: 'Ipratropium (składnik Berodualu)',
+    explanation: 'Ipratropium, składnik preparatu Berodual, jest antagonistą receptorów muskarynowych, który powoduje rozszerzenie oskrzeli.',
+    category: 'Leki'
+  },
+  {
+    id: '3447',
+    question: 'Która grupa leków stanowi największe ryzyko uzależnienia?',
+    options: ['Benzodiazepiny i opioidy', 'Beta-blokery', 'Antybiotyki', 'Leki przeciwgrzybicze'],
+    correctAnswer: 'Benzodiazepiny i opioidy',
+    explanation: 'Benzodiazepiny (np. diazepam, lorazepam, klonazepam) oraz opioidy (np. morfina, fentanyl, oksykodon) mają największy potencjał uzależniający.',
+    category: 'Leki'
+  },
+  {
+    id: '3448',
+    question: 'Który z leków jest stosowany jako diuretyk oszczędzający potas?',
+    options: ['Spironolakton', 'Furosemid', 'Mannitol', 'Enoksaparyna'],
+    correctAnswer: 'Spironolakton',
+    explanation: 'Spironolakton jest diuretykiem oszczędzającym potas, który działa jako antagonista aldosteronu, co zmniejsza wydalanie potasu z moczem.',
+    category: 'Leki'
+  },
+  {
+    id: '3449',
+    question: 'Który z mechanizmów działania NIE dotyczy leków przeciwdepresyjnych?',
+    options: ['Hamowanie syntezy ściany komórkowej bakterii', 'Hamowanie wychwytu serotoniny', 'Hamowanie wychwytu noradrenaliny', 'Antagonizm receptorów 5-HT2'],
+    correctAnswer: 'Hamowanie syntezy ściany komórkowej bakterii',
+    explanation: 'Hamowanie syntezy ściany komórkowej bakterii to mechanizm działania antybiotyków (np. penicyliny, cefalosporyny), a nie leków przeciwdepresyjnych.',
+    category: 'Leki'
+  },
+  {
+    id: '3450',
+    question: 'Który lek jest przeciwwskazany u pacjentów z ciężką niewydolnością wątroby?',
+    options: ['Paracetamol w dużych dawkach', 'Kapsaicyna', 'Klotrimazol miejscowo', 'Ipratropium'],
+    correctAnswer: 'Paracetamol w dużych dawkach',
+    explanation: 'Paracetamol w dużych dawkach jest hepatotoksyczny i przeciwwskazany u pacjentów z ciężką niewydolnością wątroby, gdyż może nasilać uszkodzenie tego narządu.',
+    category: 'Leki'
+  },
+  {
+    id: '3451',
+    question: 'Jaki jest mechanizm działania Etamsylatu?',
+    answer: 'Przyspiesza agregację płytek krwi oraz wzmacnia ściany naczyń.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3452',
+    question: 'Jakie są działania niepożądane Loperamidu?',
+    answer: 'Zaparcia, ból brzucha, suchość w ustach.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3453',
+    question: 'Jakie są wskazania do stosowania Dokusanu sodowego?',
+    answer: 'Łagodzenie kolki i bólu spowodowanego skurczami mięśni gładkich (np. przewodu pokarmowego).',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3454',
+    question: 'Jaki jest mechanizm działania Cyprofloksacyny?',
+    answer: 'Hamuje enzymy gyrazy oraz topoizomerazę IV w bakteriach, zakłócając replikację DNA.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3455',
+    question: 'Jakie są działania niepożądane Octanu megestrolu?',
+    answer: 'Przyrost masy ciała, retencja płynów, zmiany nastroju.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3456',
+    question: 'Jakie są wskazania do stosowania Midazolamu?',
+    answer: 'Sedacja, indukcja znieczulenia, procedury diagnostyczne.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3457',
+    question: 'Jaki jest mechanizm działania Mannitolu?',
+    answer: 'Zwiększa osmolalność osocza → osmotyczne przyciąganie wody do naczyń → zwiększenie diurezy.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3458',
+    question: 'Jakie są wskazania do stosowania Kalium effervescens?',
+    answer: 'Hipokaliemia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3459',
+    question: 'Jaki jest mechanizm działania Fentanylu?',
+    answer: 'Silny agonista receptorów μ → bardzo silne działanie przeciwbólowe.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3460',
+    question: 'Jakie są działania niepożądane Bisocardu (bisoprololu)?',
+    answer: 'Bradykardia, zmęczenie, zawroty głowy, hipotonia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3461',
+    question: 'Jakie są wskazania do stosowania Oksykodonu?',
+    answer: 'Silny ból.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3462',
+    question: 'Jaki jest mechanizm działania Amlodypiny?',
+    answer: 'Blokada kanałów wapniowych w mięśniu gładkim naczyń → rozszerzenie naczyń i obniżenie ciśnienia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3463',
+    question: 'Jakie są działania niepożądane Oktreotydu?',
+    answer: 'Ból brzucha, nudności, biegunka, zmiany glikemii.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3464',
+    question: 'Jakie są wskazania do stosowania Klonazepamu?',
+    answer: 'Padaczka (niektóre postaci), zaburzenia lękowe.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3465',
+    question: 'Jaki jest mechanizm działania Buprenorfiny?',
+    answer: 'Częściowy agonista receptorów μ, antagonista receptorów kappa → działanie przeciwbólowe oraz substytucyjne w terapii uzależnień.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3466',
+    question: 'Jakie są działania niepożądane Karbamazepiny?',
+    answer: 'Zawroty głowy, zaburzenia widzenia, nudności, ryzyko zaburzeń krwi (leukopenia).',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3467',
+    question: 'Jakie są wskazania do stosowania Gabapentyny?',
+    answer: 'Padaczka, neuropatie bólowe.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3468',
+    question: 'Jaki jest mechanizm działania Paroksetyny?',
+    answer: 'Hamuje wychwyt serotoniny, zwiększając jej dostępność w synapsach.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3469',
+    question: 'Jakie są działania niepożądane Pregabaliny?',
+    answer: 'Zawroty głowy, senność, obrzęki, przyrost masy ciała.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3470',
+    question: 'Jakie są wskazania do stosowania Cefuroksymu?',
+    answer: 'Zakażenia dróg oddechowych, moczowych, skóry.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3471',
+    question: 'Jaki jest mechanizm działania Kwasu traneksamowego?',
+    answer: 'Hamuje aktywność plazminogenu → zmniejsza lizy skrzepów.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3472',
+    question: 'Jakie są działania niepożądane Celekoksybu?',
+    answer: 'Ryzyko zdarzeń sercowo-naczyniowych, zaburzenia żołądkowo-jelitowe, ból głowy.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3473',
+    question: 'Jakie są wskazania do stosowania Trittico (trazodonu)?',
+    answer: 'Depresja, zaburzenia snu.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3474',
+    question: 'Jaki jest mechanizm działania Metyloprednizolonu?',
+    answer: 'Działa przeciwzapalnie i immunosupresyjnie poprzez modulację ekspresji genów prozapalnych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3475',
+    question: 'Jakie są działania niepożądane Captoprilu?',
+    answer: 'Kaszel, hiperkaliemia, niedociśnienie, reakcje skórne.',
+    category: 'Leki',
+    reversed: true
+  },
+  
+  // Additional quiz questions
+  {
+    id: '3476',
+    question: 'Który lek działa przeciwwymiotnie poprzez blokowanie receptorów 5-HT3?',
+    options: ['Ondansetron', 'Metoklopramid', 'Dimenhydrynat', 'Loperamid'],
+    correctAnswer: 'Ondansetron',
+    explanation: 'Ondansetron jest selektywnym antagonistą receptorów serotoninowych 5-HT3, co odpowiada za jego działanie przeciwwymiotne, szczególnie skuteczne w leczeniu nudności wywołanych chemioterapią.',
+    category: 'Leki'
+  },
+  {
+    id: '3477',
+    question: 'Który z wymienionych leków jest stosowany w terapii substytucyjnej uzależnienia od opioidów?',
+    options: ['Metadon', 'Nalokson', 'Tramadol', 'Paracetamol'],
+    correctAnswer: 'Metadon',
+    explanation: 'Metadon jest opioidem o długim czasie działania, stosowanym w terapii substytucyjnej uzależnienia od opioidów, szczególnie heroiny.',
+    category: 'Leki'
+  },
+  {
+    id: '3478',
+    question: 'Który z leków może powodować reakcję disulfiramopodobną po spożyciu alkoholu?',
+    options: ['Metronidazol', 'Kapsaicyna', 'Paracetamol', 'Kodeina'],
+    correctAnswer: 'Metronidazol',
+    explanation: 'Metronidazol powoduje reakcję disulfiramopodobną po spożyciu alkoholu, objawiającą się zaczerwienieniem skóry, nudnościami, wymiotami i tachykardią.',
+    category: 'Leki'
+  },
+  {
+    id: '3479',
+    question: 'Która grupa leków powoduje efekt inotropowy dodatni (zwiększa siłę skurczu mięśnia sercowego)?',
+    options: ['Glikozydy nasercowe (np. digoksyna)', 'Benzodiazepiny', 'NLPZ', 'Leki przeciwhistaminowe'],
+    correctAnswer: 'Glikozydy nasercowe (np. digoksyna)',
+    explanation: 'Glikozydy nasercowe, takie jak digoksyna, zwiększają siłę skurczu mięśnia sercowego (działanie inotropowe dodatnie) poprzez hamowanie ATP-azy Na⁺/K⁺ w kardiomiocytach.',
+    category: 'Leki'
+  },
+  {
+    id: '3480',
+    question: 'Który z wymienionych leków należy do grupy bisfosfonianiów?',
+    options: ['Zoledronian', 'Tramadol', 'Ondansetron', 'Amlodypina'],
+    correctAnswer: 'Zoledronian',
+    explanation: 'Zoledronian jest bisfosfonianem, czyli lekiem hamującym resorpcję kostną, stosowanym w osteoporozie i przerzutach nowotworowych do kości.',
+    category: 'Leki'
+  },
+  {
+    id: '3481',
+    question: 'Który lek zwiększa stężenie potasu w surowicy krwi?',
+    options: ['Spironolakton', 'Furosemid', 'Indapamid', 'Mannitol'],
+    correctAnswer: 'Spironolakton',
+    explanation: 'Spironolakton jest diuretykiem oszczędzającym potas, który może zwiększać stężenie potasu we krwi, szczególnie gdy jest stosowany z suplementami potasu lub inhibitorami ACE.',
+    category: 'Leki'
+  },
+  {
+    id: '3482',
+    question: 'Który antybiotyk należy do grupy fluorochinolonów?',
+    options: ['Cyprofloksacyna', 'Amoksycylina', 'Klarytromycyna', 'Metronidazol'],
+    correctAnswer: 'Cyprofloksacyna',
+    explanation: 'Cyprofloksacyna należy do antybiotyków z grupy fluorochinolonów, które działają poprzez hamowanie bakteryjnej gyrazy DNA i topoizomerazy IV.',
+    category: 'Leki'
+  },
+  {
+    id: '3483',
+    question: 'Który z wymienionych leków jest inhibitorem konwertazy angiotensyny (ACE)?',
+    options: ['Captopril', 'Amlodypina', 'Bisoprolol', 'Spironolakton'],
+    correctAnswer: 'Captopril',
+    explanation: 'Captopril jest inhibitorem konwertazy angiotensyny (ACE), który hamuje przekształcanie angiotensyny I do angiotensyny II, zmniejszając opór naczyniowy i obniżając ciśnienie krwi.',
+    category: 'Leki'
+  },
+  {
+    id: '3484',
+    question: 'Który z leków może powodować osteonekrozę żuchwy jako rzadkie, ale poważne działanie niepożądane?',
+    options: ['Kwas zoledronowy', 'Metoklopramid', 'Ondansetron', 'Lidokaina'],
+    correctAnswer: 'Kwas zoledronowy',
+    explanation: 'Kwas zoledronowy (zoledronian) może powodować osteonekrozę żuchwy, szczególnie u pacjentów poddawanych zabiegom stomatologicznym podczas terapii tym lekiem.',
+    category: 'Leki'
+  },
+  {
+    id: '3485',
+    question: 'Który z wymienionych leków jest lekiem przeciwzakrzepowym?',
+    options: ['Enoksaparyna', 'Ondansetron', 'Amlodypina', 'Metoklopramid'],
+    correctAnswer: 'Enoksaparyna',
+    explanation: 'Enoksaparyna jest heparyną drobnocząsteczkową o działaniu przeciwzakrzepowym, stosowaną w profilaktyce i leczeniu zakrzepicy żył głębokich i zatorowości płucnej.',
+    category: 'Leki'
+  },
+  {
+    id: '3486',
+    question: 'Do której grupy farmakologicznej należy Haloperidol?',
+    options: ['Neuroleptyki klasyczne', 'Inhibitory wychwytu zwrotnego serotoniny', 'Inhibitory konwertazy angiotensyny', 'Benzodiazepiny'],
+    correctAnswer: 'Neuroleptyki klasyczne',
+    explanation: 'Haloperidol jest klasycznym neuroleptykiem (lekiem przeciwpsychotycznym), który działa głównie poprzez blokadę receptorów dopaminowych D₂.',
+    category: 'Leki'
+  },
+  {
+    id: '3487',
+    question: 'Który lek z wymienionych ma najkrótszy czas działania jako benzodiazepina?',
+    options: ['Midazolam', 'Diazepam', 'Klonazepam', 'Lorazepam'],
+    correctAnswer: 'Midazolam',
+    explanation: 'Midazolam ma najkrótszy czas działania spośród wymienionych benzodiazepin, co czyni go idealnym do krótkotrwałej sedacji i zabiegów diagnostycznych.',
+    category: 'Leki'
+  },
+  {
+    id: '3488',
+    question: 'Który lek przeciwbólowy ma najsłabsze działanie przeciwzapalne?',
+    options: ['Paracetamol', 'Ibuprofen', 'Diklofenak', 'Ketoprofen'],
+    correctAnswer: 'Paracetamol',
+    explanation: 'Paracetamol, w przeciwieństwie do NLPZ (ibuprofen, diklofenak, ketoprofen), ma bardzo słabe działanie przeciwzapalne, ale dobre działanie przeciwbólowe i przeciwgorączkowe.',
+    category: 'Leki'
+  },
+  {
+    id: '3489',
+    question: 'Który z leków działa jako kompetytywny antagonistista receptorów aldosteronu?',
+    options: ['Spironolakton', 'Furosemid', 'Chlorotiazyd', 'Mannitol'],
+    correctAnswer: 'Spironolakton',
+    explanation: 'Spironolakton jest antagonistą receptorów aldosteronu, co prowadzi do zwiększonego wydalania sodu i wody z organizmu, przy jednoczesnej retencji potasu.',
+    category: 'Leki'
+  },
+  {
+    id: '3490',
+    question: 'Który lek jest agonistą receptorów beta-2-adrenergicznych, stosowanym w leczeniu astmy?',
+    options: ['Salbutamol', 'Bisoprolol', 'Ipratropium', 'Budezonid'],
+    correctAnswer: 'Salbutamol',
+    explanation: 'Salbutamol jest selektywnym agonistą receptorów beta-2-adrenergicznych, powodującym rozszerzenie oskrzeli, co czyni go skutecznym w leczeniu astmy oskrzelowej i POChP.',
+    category: 'Leki'
+  },
+  {
+    id: '3491',
+    question: 'Jakie są wskazania do stosowania Haloperidolu?',
+    answer: 'Schizofrenia, psychozy, ciężkie pobudzenie psychoruchowe.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3492',
+    question: 'Jaki jest mechanizm działania Deksametazonu?',
+    answer: 'Działa przeciwzapalnie i immunosupresyjnie poprzez modulację czynności genów prozapalnych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3493',
+    question: 'Jakie są działania niepożądane Denosumabu?',
+    answer: 'Zakażenia dróg oddechowych, hipokalcemia, reakcje w miejscu wstrzyknięcia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3494',
+    question: 'Jakie są wskazania do stosowania Dokstrometorfanu?',
+    answer: 'Suchy, uporczywy kaszel.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3495',
+    question: 'Jaki jest mechanizm działania Laktulozy?',
+    answer: 'Osmotyczne działanie w jelicie – fermentacja do kwasów organicznych, przyciąganie wody do światła jelita.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3496',
+    question: 'Jakie są działania niepożądane Lewomepromazyny?',
+    answer: 'Sedacja, objawy pozapiramidowe, hipotonia, suchość w ustach.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3497',
+    question: 'Jakie są wskazania do stosowania Escitalopramu?',
+    answer: 'Depresja, zaburzenia lękowe.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3498',
+    question: 'Jaki jest mechanizm działania Diazepamu?',
+    answer: 'Wzmacnia działanie GABA → efekt uspokajający, przeciwlękowy, przeciwpadaczkowy.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3499',
+    question: 'Jakie są działania niepożądane Wankomycyny?',
+    answer: 'Nefrotoksyczność, ototoksyczność, tzw. "Red Man Syndrome" (szybkie podanie).',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3500',
+    question: 'Jakie są wskazania do stosowania Bisakodylu?',
+    answer: 'Zaparcia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3501',
+    question: 'Jaki jest mechanizm działania Prednizonu?',
+    answer: 'Działa przeciwzapalnie i immunosupresyjnie, modulując ekspresję czynników prozapalnych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3502',
+    question: 'Jakie są działania niepożądane Naltreksonu?',
+    answer: 'Nudności, bóle głowy, zawroty, możliwość wywołania objawów abstynencyjnych.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3503',
+    question: 'Jakie są wskazania do stosowania Fluoksetyny?',
+    answer: 'Depresja, zaburzenia obsesyjno-kompulsywne, bulimia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3504',
+    question: 'Jaki jest mechanizm działania Makrogolu?',
+    answer: 'Osmotyczne zwiększenie zawartości wody w kale → ułatwienie wypróżnienia.',
+    category: 'Leki',
+    reversed: true
+  },
+  {
+    id: '3505',
+    question: 'Jakie są działania niepożądane Salbutamolu?',
+    answer: 'Drżenia, tachykardia, ból głowy, suchość w ustach.',
+    category: 'Leki',
+    reversed: true
+  },
+  
+  // Final batch of quiz questions
+  {
+    id: '3506',
+    question: 'Który z wymienionych leków jest stosowany w leczeniu bólu neuropatycznego?',
+    options: ['Pregabalina', 'Omeprazol', 'Furosemid', 'Spironolakton'],
+    correctAnswer: 'Pregabalina',
+    explanation: 'Pregabalina jest lekiem o działaniu przeciwdrgawkowym, który jest skuteczny w leczeniu bólu neuropatycznego poprzez hamowanie uwalniania neuroprzekaźników pobudzających.',
+    category: 'Leki'
+  },
+  {
+    id: '3507',
+    question: 'Który z leków NIE jest stosowany w leczeniu nadciśnienia tętniczego?',
+    options: ['Fluoksetyna', 'Amlodypina', 'Ramipril', 'Bisoprolol'],
+    correctAnswer: 'Fluoksetyna',
+    explanation: 'Fluoksetyna jest inhibitorem wychwytu zwrotnego serotoniny (SSRI) stosowanym w leczeniu depresji i zaburzeń lękowych, nie ma właściwości hipotensyjnych.',
+    category: 'Leki'
+  },
+  {
+    id: '3508',
+    question: 'Który lek może powodować hiperkalemię jako działanie niepożądane?',
+    options: ['Spironolakton', 'Furosemid', 'Mannitol', 'Hydrochlorotiazyd'],
+    correctAnswer: 'Spironolakton',
+    explanation: 'Spironolakton jest diuretykiem oszczędzającym potas, który może powodować hiperkalemię, szczególnie u pacjentów z niewydolnością nerek lub przyjmujących suplementy potasu.',
+    category: 'Leki'
+  },
+  {
+    id: '3509',
+    question: 'Który z wymienionych antybiotyków jest najczęściej stosowany w leczeniu zakażeń Helicobacter pylori?',
+    options: ['Klarytromycyna', 'Cyprofloksacyna', 'Gentamycyna', 'Wankomycyna'],
+    correctAnswer: 'Klarytromycyna',
+    explanation: 'Klarytromycyna jest antybiotykiem makrolidowym często stosowanym w terapii eradykacyjnej Helicobacter pylori, zwykle w połączeniu z inhibitorem pompy protonowej i amoksycyliną lub metronidazolem.',
+    category: 'Leki'
+  },
+  {
+    id: '3510',
+    question: 'Który lek stosuje się w leczeniu ostrej niewydolności oddechowej u wcześniaków?',
+    options: ['Surfaktant', 'Budezonid', 'Salbutamol', 'Teofilina'],
+    correctAnswer: 'Surfaktant',
+    explanation: 'Surfaktant jest stosowany w leczeniu zespołu zaburzeń oddychania u wcześniaków, ponieważ zmniejsza napięcie powierzchniowe w pęcherzykach płucnych i zapobiega ich zapadaniu się.',
+    category: 'Leki'
+  },
+  {
+    id: '3511',
+    question: 'Który lek ma działanie antagonistyczne wobec receptorów muskarynowych?',
+    options: ['Atropina', 'Propranolol', 'Dobutamina', 'Metoklopramid'],
+    correctAnswer: 'Atropina',
+    explanation: 'Atropina jest antagonistą receptorów muskarynowych, co prowadzi do hamowania działania układu przywspółczulnego, powodując m.in. przyspieszenie czynności serca i zmniejszenie wydzielania śliny.',
+    category: 'Leki'
+  },
+  {
+    id: '3512',
+    question: 'Który z poniższych leków nie jest klasyfikowany jako NLPZ?',
+    options: ['Paracetamol', 'Ibuprofen', 'Naproksen', 'Diklofenak'],
+    correctAnswer: 'Paracetamol',
+    explanation: 'Paracetamol (acetaminofen) nie jest klasyfikowany jako niesteroidowy lek przeciwzapalny (NLPZ), ponieważ ma słabe działanie przeciwzapalne i odmienny mechanizm działania.',
+    category: 'Leki'
+  },
+  {
+    id: '3513',
+    question: 'Który lek jest inhibitorem pompy protonowej?',
+    options: ['Omeprazol', 'Ranitydyna', 'Metoklopramid', 'Ondansetron'],
+    correctAnswer: 'Omeprazol',
+    explanation: 'Omeprazol jest inhibitorem pompy protonowej (IPP), który blokuje enzym H+/K+-ATP-azę w komórkach okładzinowych żołądka, hamując wydzielanie kwasu solnego.',
+    category: 'Leki'
+  },
+  {
+    id: '3514',
+    question: 'Który z wymienionych leków jest beta-blokerem kardioselektywnym?',
+    options: ['Metoprolol', 'Propranolol', 'Labetalol', 'Karwedilol'],
+    correctAnswer: 'Metoprolol',
+    explanation: 'Metoprolol jest kardioselektywnym beta-blokerem, co oznacza, że wybiórczo blokuje receptory beta-1-adrenergiczne, które występują głównie w sercu, z minimalnym wpływem na receptory beta-2 w oskrzelach.',
+    category: 'Leki'
+  },
+  {
+    id: '3515',
+    question: 'Który z wymienionych leków przeciwpsychotycznych powoduje najmniej objawów pozapiramidowych?',
+    options: ['Kwetiapina', 'Haloperidol', 'Chloropromazyna', 'Flufenazyna'],
+    correctAnswer: 'Kwetiapina',
+    explanation: 'Kwetiapina jest atypowym lekiem przeciwpsychotycznym, który powoduje znacznie mniej objawów pozapiramidowych niż leki klasyczne (haloperidol, chloropromazyna, flufenazyna) ze względu na słabsze wiązanie z receptorami D2.',
+    category: 'Leki'
   }
 ];
 
 export const flashcards: Flashcard[] = allFlashcards.filter((card): card is Flashcard => 
-  !('options' in card && 'correctAnswer' in card)
-).map(card => ({
-  ...card,
-  reversed: true
-}));
+  'answer' in card && 'question' in card && !('options' in card)
+);
 
 export const quizQuestions: QuizQuestion[] = allFlashcards.filter((card): card is QuizQuestion => 
-  'options' in card && 
-  'correctAnswer' in card && 
-  Array.isArray((card as any).options) &&
-  typeof (card as any).correctAnswer === 'string'
+  'options' in card && 'correctAnswer' in card
 ); 
