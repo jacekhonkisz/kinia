@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { QuizQuestion, QuizState } from '../types/quiz';
 
 interface QuizProps {
   questions: QuizQuestion[];
 }
 
-const Quiz: React.FC<QuizProps> = ({ questions }) => {
+const Quiz = ({ questions }: QuizProps) => {
   const [quizState, setQuizState] = useState<QuizState>({
     currentQuestionIndex: 0,
     score: 0,

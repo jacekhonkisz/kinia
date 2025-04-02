@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://[YOUR_GITHUB_USERNAME].github.io/kinia",
+  "homepage": "https://jacekhonkisz.github.io/kinia",
   "dependencies": {
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.0",

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Flashcards from './components/Flashcards';
 import Quiz from './components/Quiz';
 import { flashcards, quizQuestions } from './data/quizData';

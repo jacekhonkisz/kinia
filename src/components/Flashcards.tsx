@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Flashcard } from '../types/quiz';
 
 interface FlashcardsProps {
   flashcards: Flashcard[];
 }
 
-const Flashcards: React.FC<FlashcardsProps> = ({ flashcards }) => {
+const Flashcards = ({ flashcards }: FlashcardsProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [isReversed, setIsReversed] = useState(false);
