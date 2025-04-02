@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   root: '.',
-  base: '/kinia/',
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
