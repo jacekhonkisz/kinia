@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import Flashcards from './components/Flashcards';
 import Quiz from './components/Quiz';
 import MedicationFlashcards from './components/MedicationFlashcards';

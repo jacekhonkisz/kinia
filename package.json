@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "homepage": "https://jacekhonkisz.github.io/kinia",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@types/node": "^20.11.0",
     "@types/react": "^18.2.0",
@@ -26,6 +29,7 @@
   "scripts": {
     "dev": "vite --port 3001",
     "build": "tsc && vite build",
+    "vercel-build": "npm run build",
     "preview": "vite preview",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
